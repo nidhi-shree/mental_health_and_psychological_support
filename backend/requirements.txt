@@ -1,0 +1,13 @@
+flask
+flask-cors
+pymongo
+mongoengine
+python-dotenv
+flask-login
+flask-bcrypt
+flask-wtf
+flask-mail
+reportlab
+pillow 
+tensorflow>=2.16.1
+opencv-python
