@@ -30,11 +30,11 @@ MindCare is a pioneering full-stack mental health sanctuary that harmonizes Affe
 MindCare is a comprehensive, AI-driven web application designed to bridge the gap between self-care and professional mental health support. Built for students and young professionals, it integrates biometric emotion detection, AI-powered journaling, secure tele-therapy, and peer support into one seamless platform.
 
 ### 🎯 Key Innovations
-- **Biometric Emotion Recognition** via EfficientNet model
-- **Privacy-first AI Video Journal** with ephemeral storage
+- **Biometric Emotion Recognition** via custom-trained EfficientNet model
+- **Privacy-first AI Video Journal with analysis and insights** and ephemeral storage
 - **Hybrid AI Companion** with crisis detection
-- **Role-based professional ecosystem** with verified psychologists
-- **Intelligent peer matching** in Buddy Space
+- **Role-based professional ecosystem** with verified psychologists(verified via admins)
+- **Peer chat ans support circles** in Buddy Space
 
 ---
 
