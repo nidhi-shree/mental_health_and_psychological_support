@@ -13,8 +13,8 @@ MindCare is a pioneering full-stack mental health sanctuary that harmonizes Affe
 ## 📖 Table of Contents
 - [Overview](#-overview)
 - [Features](#-features)
-- [System Architecture](#-system-architecture)
-- [User Roles](#-user-roles)
+- [System Architecture](#system-architecture)
+- [User Roles](#user-roles)
 - [Modules](#-modules)
 - [Installation](#-installation)
 - [Usage](#-usage)
@@ -62,8 +62,6 @@ MindCare is a comprehensive, AI-driven web application designed to bridge the ga
 |---------|--------|-------------|
 | **Request Pool** | ✅ Live | Accept patient consultation requests |
 | **My Schedule** | ✅ Live | View upcoming sessions, start video calls, send prescriptions |
-| **Video Journal Review** | 🔄 In Progress | Access patient emotion timelines (with consent) |
-| **Resource Management** | ✅ Live | Create and share resources with patients |
 | **Appointment Management** | ✅ Live | Manage bookings and availability |
 
 ### 👑 Admin Panel
@@ -79,8 +77,7 @@ MindCare is a comprehensive, AI-driven web application designed to bridge the ga
 - **System Configuration**: Manage platform settings and feature flags
 
 ---
-
-## 🏗️ System Architecture
+## <a id="system-architecture"></a>🏗️ System Architecture
 
 ### 🔧 Tech Stack
 ```
@@ -102,7 +99,7 @@ AI/ML Services:
 ```
 ---
 
-## 👤 User Roles & Permissions
+## <a id="user-roles"></a>👥 User Roles
 
 | Role | Permissions | Access Level |
 |------|-------------|--------------|
