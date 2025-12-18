@@ -241,14 +241,12 @@ npm start
 ### Data Protection
 - **End-to-end encryption** for all video calls
 - **Ephemeral storage** for video recordings
-- **GDPR compliance** with data deletion requests
 - **Regular security audits** and penetration testing
 
 ### Authentication
 - JWT tokens with a refresh mechanism
 - Role-based access control (RBAC)
 - Session timeout after 30 minutes of inactivity
-- Two-factor authentication (optional)
 
 ### Crisis Protocol
 ```
