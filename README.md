@@ -798,8 +798,6 @@ curl -X GET http://localhost:5000/api/moods/ \
 
 ---
 
----
-
 ## 🤝 Contributing
 
 We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md).
