@@ -11,16 +11,16 @@ MindCare is a pioneering full-stack mental health sanctuary that harmonizes Affe
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15-orange)
 
 ## 📖 Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [System Architecture](#system-architecture)
-- [User Roles](#user-roles)
-- [Modules](#modules)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Security & Privacy](#security--privacy)
-- [API Documentation](#api-documentation)
-- [Contributing](#contributing)
+- [Overview](#-overview)
+- [Features](#-features)
+- [System Architecture](#-system-architecture)
+- [User Roles](#-user-roles)
+- [Modules](#-modules)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Security & Privacy](#-security--privacy)
+- [API Documentation](#-api-documentation)
+- [Contributing](#-contributing)
 
 
 ---
@@ -41,7 +41,9 @@ MindCare is a comprehensive, AI-driven web application designed to bridge the ga
 ## ✨ Features
 
 ### 👥 User Dashboard
-|![Alt Text](home_page1.png)|![Alt Text](chatbot.png)|
+| Home page | Chatbot |
+| :---: | :---: |
+|![Alt Text](screenshots/home_page1.png)|![Alt Text](screenshots/chatbot.png)|
 
 - **Emotion Detection**: Real-time facial expression analysis during video journals
 - **AI Chatbot (EmbraceAI)**: Empathetic conversation with safety fallbacks
@@ -52,7 +54,9 @@ MindCare is a comprehensive, AI-driven web application designed to bridge the ga
 
 ### 👨‍⚕️ Psychologist Dashboard
 ![Psychologist Dashboard](https://img.shields.io/badge/Module-Psychologist_Dashboard-purple)
-|![Alt Text](psychologist_dashboard1.png)|![Alt Text](psychologist_dashboard2.png)|
+| Psychologist dashboard | Pschologist dashboard |
+| :---: | :---: |
+|![Alt Text](screenshots/psychologist_dashboard1.png)|![Alt Text](screenshots/psychologist_dashboard2.png)|
 
 | Feature | Status | Description |
 |---------|--------|-------------|
@@ -64,7 +68,9 @@ MindCare is a comprehensive, AI-driven web application designed to bridge the ga
 
 ### 👑 Admin Panel
 ![Admin Panel](https://img.shields.io/badge/Module-Admin_Panel-red)
-|![Alt Text](admin_dashboard1.png)|![Alt Text](user_management.png)|
+| Admin Dashboard | user management |
+| :---: | :---: |
+|![Alt Text](screenshots/admin_dashboard1.png)|![Alt Text](screenshots/user_management.png)|
 
 - **User Management**: View, verify, and manage all accounts
 - **Psychologist Verification**: Validate licenses and approve/reject applications
@@ -110,7 +116,7 @@ AI/ML Services:
 
 ### 1. Emotion Detection Module
 ![AI](https://img.shields.io/badge/AI-Emotion_Detection-blueviolet)
-![Alt Text](mood_mirror.png)
+![Alt Text](screenshots/mood_mirror.png)
 
 - **Model**: Custom-trained EfficientNet-B0
 - **Emotions**: Happy, Sad, Angry, Fear, Surprise, Disgust, Neutral
@@ -119,7 +125,9 @@ AI/ML Services:
 
 ### 2. Video Journal System
 ![Privacy](https://img.shields.io/badge/Privacy-First_Architecture-green)
-|![Alt Text](video_journaling1.png)|![alt text](video_journaling2.png)|
+| Video Journaling | Analysis |
+| :---: | :---: |
+|![Alt Text](screenshots/video_journaling1.png)|![alt text](screenshots/video_journaling2.png)|
 
 - Record 1-5 minute video reflections
 - Automatic emotion timeline generation
@@ -128,7 +136,7 @@ AI/ML Services:
 
 ### 3. EmbraceAI Chatbot
 ![AI Chat](https://img.shields.io/badge/AI-Hybrid_Chatbot-orange)
-![Alt Text](chatbot.png)
+![Alt Text](screenshots/chatbot.png)
 
 - **Primary**: API integration
 - **Fallback**: Local rule-based engine
@@ -137,7 +145,9 @@ AI/ML Services:
 
 ### 4. Buddy Space
 ![Social](https://img.shields.io/badge/Module-Buddy_Space-9cf)
-|![Alt Text](buddy_space1.png)|![alt text](buddy_space2.png)|
+| Buddy Space | Support circles |
+| :---: | :---: |
+|![Alt Text](screenshots/buddy_space1.png)|![alt text](screenshots/buddy_space2.png)|
 
 - peer chat
 - Support circle creation
@@ -145,8 +155,12 @@ AI/ML Services:
 
 ### 5. Tele-Therapy System
 ![Video](https://img.shields.io/badge/Feature-Video_Therapy-red)
-|![Alt Text](jitsi_session.png)|![Alt Text](prescription_sent.jpeg)|
-|![Alt Text](write_prescription.png)|
+| Jitsi session | Prescription sent |
+| :---: | :---: |
+|![Alt Text](screenshots/jitsi_session.png)|![Alt Text](screenshots/prescription_sent.jpeg)|
+| Write prescription | 
+| :---: | 
+|![Alt Text](screenshots/write_prescription.png)|
 
 - End-to-end encrypted video calls (Jitsi)
 - Prescription PDF generation
@@ -234,20 +248,20 @@ npm start
 - **Regular security audits** and penetration testing
 
 ### Authentication
-- JWT tokens with refresh mechanism
+- JWT tokens with a refresh mechanism
 - Role-based access control (RBAC)
 - Session timeout after 30 minutes of inactivity
 - Two-factor authentication (optional)
 
 ### Crisis Protocol
 ```
-User mentions crisis keyword
+User mentions a crisis keyword
     ↓
 AI Chatbot triggers safety override
     ↓
 Display emergency resources
     ↓
-Option to connect with human moderator
+Option to connect with a human moderator
     ↓
 If immediate danger: Notify emergency contact
 ```
@@ -791,11 +805,10 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 - **Jitsi** for secure video conferencing
 - **MongoDB** for database solutions
 - **Tailwind CSS** for styling
-- **Vercel** for hosting
 - **Gemini** for AI insights
 
 ---
 
-*"Taking care of your mental health is an act of self-respect."* - MindCare Team
+*"Taking care of your mental health is an act of self-respect."* - MindCare
 
 ---
