@@ -16,6 +16,7 @@ MindCare is a pioneering full-stack mental health sanctuary that harmonizes Affe
 - [System Architecture](#system-architecture)
 - [User Roles](#user-roles)
 - [Modules](#-modules)
+- [Project Structure](#project-structure)
 - [Installation](#-installation)
 - [Usage](#-usage)
 - [Security & Privacy](#-security--privacy)
@@ -163,6 +164,29 @@ AI/ML Services:
 - Prescription PDF generation
 - Session notes and follow-ups
 
+---
+## <a id="project-structure"></a>📂 Project Structure
+
+```bash
+mindcare-app/
+├── backend/  
+├── public/                # Static assets (logos, icons, manifest)
+├── screenshots/           # Project screenshots for documentation
+├── src/                   # Main application source code
+│   ├── assets/            # Global images, styles, and fonts
+│   ├── components/        # Reusable React components
+│   │   └── ui/            # Shared UI components (Shadcn/Tailwind)
+│   ├── contexts/          # Global state management (React Context)
+│   ├── hooks/             # Custom React hooks
+│   ├── lib/               # Utility functions and library configurations
+│   └── pages/             # Main application views/routes
+├── index.html
+├── emotion_detection_final.ipynb                 
+├── package.json           # Project dependencies and scripts
+├── tailwind.config.js     # Tailwind CSS configuration
+├── vite.config.ts         # Vite build tool configuration
+└── README.md              # Project documentation
+```
 ---
 
 ## 🚀 Installation
